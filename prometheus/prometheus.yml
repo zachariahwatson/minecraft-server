@@ -1,0 +1,9 @@
+global:
+  scrape_interval: 1m # By default, scrape targets every one minute.
+
+# A scrape configuration containing exactly one endpoint to scrape:
+scrape_configs:
+  - job_name: "mc-monitor"
+    static_configs:
+      #target what the status scraper spits out
+      - targets: ["mc-monitor:8080"]
