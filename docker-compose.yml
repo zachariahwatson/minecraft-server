@@ -38,8 +38,6 @@ services:
   mc-prometheus:
     image: prom/prometheus:latest
     container_name: mc-prometheus
-    ports:
-      - 9090:9090
     restart: unless-stopped
     depends_on:
       - mc-monitor
