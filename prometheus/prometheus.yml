@@ -1,5 +1,5 @@
 global:
-  scrape_interval: 1m # By default, scrape targets every one minute.
+  scrape_interval: 15s # By default, scrape targets every one minute.
 
 # A scrape configuration containing exactly one endpoint to scrape:
 scrape_configs:
