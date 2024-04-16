@@ -15,7 +15,7 @@ services:
       EULA: "TRUE"
       CF_SERVER_MOD: BMC4_FORGE_1.20.1_Server_Pack_v26.zip
       INIT_MEMORY: 512M
-      MAX_MEMORY: 2G
+      MAX_MEMORY: 3G
       MOTD: chat(modded)
       TYPE: CURSEFORGE
       USE_AIKAR_FLAGS: "TRUE"
